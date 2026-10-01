@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#DFF3FF">
+<title>buat zyan 💙</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="bg" aria-hidden="true">
+  <span class="blob b1"></span>
+  <span class="blob b2"></span>
+  <span class="blob b3"></span>
+  <div id="floaters"></div>
+</div>
+
+<main>
+  <section class="page active" id="opening" data-anim="rise">
+    <div class="stack center">
+      <h1 class="line">heyy, birthday girl! 💙</h1>
+      <p class="line">aku punya beberapa pertanyaan kecil buat kamu nihh</p>
+      <p class="line">jawab yang jujur yaa, jangan ngarang 🤭</p>
+      <button class="btn line" type="button" data-go="intro">mulai →</button>
+    </div>
+  </section>
+
+  <section class="page" id="intro" data-anim="bloom">
+    <div class="stack left">
+      <h1 class="line">happy birthday, zyan! 🎂💙</h1>
+      <p class="line">sebelum aku kasih ucapan yang panjang, aku mau nanya-nanya dikit ke kamu duluu</p>
+      <p class="line">santai ajaa, tinggal pilih yang paling sesuai sama kamu hehe</p>
+      <button class="btn line" type="button" data-go="quiz">lanjut →</button>
+    </div>
+  </section>
+
+  <section class="page" id="quiz" data-anim="plain">
+    <div class="stack wide">
+      <p class="progress" id="progress" aria-live="polite">1 / 9</p>
+      <div class="card" id="card">
+        <h2 id="qTitle"></h2>
+        <div id="qBody"></div>
+      </div>
+      <p class="hint" id="hint" role="status"></p>
+      <button class="btn" id="nextBtn" type="button">lanjut →</button>
+    </div>
+  </section>
+
+  <section class="page" id="ending" data-anim="plain">
+    <div class="stack center ending-stack">
+      <span class="glow" aria-hidden="true"></span>
+      <h1 class="reveal title">happy birthday yaa, zyan! 🎂💙</h1>
+      <p class="reveal">semoga di umur kamu yang sekarang, kamu selalu dikelilingi hal-hal baik, orang-orang yang baik juga, dan tentunya banyak hal yang bikin kamu senengg.</p>
+      <p class="reveal">semoga semua yang kamu pengenin bisa pelan-pelan tercapai. jangan lupa jaga diri, jangan terlalu capek, sama jangan lupa senyum yaa hehe.</p>
+      <p class="reveal">makasih juga udah jadi salah satu bagian dari cerita hidup aku sampai sejauh ini.</p>
+      <p class="reveal">sekali lagi, happy birthday yaa 🤍</p>
+      <p class="reveal sign">— rivki</p>
+    </div>
+  </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
